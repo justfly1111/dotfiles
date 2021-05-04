@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# ~/.aliases
+
+# Enable color support of ls and also add handy aliases.
+alias ls='ls -G'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+alias sss='doas shutdown -p now'
+alias rrr='doas shutdown -r now'
+
+alias ls="ls --color=auto"
+alias l="ls -lFh --color=auto"
+alias la="ls -laFh --color=auto"
+alias lsd='ls -lF --color=auto | grep "^d"'
+
+alias vgit="vcsh dotfiles"
+alias fire="DISPLAY= cacafire"
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+alias em="emacs"
+alias emc="emacsclient"
+
+alias at='alacritty-themes'
+alias brightness='/usr/sbin/backlight'
+alias config='/usr/local/bin/git --git-dir=/home/doeboy1111/.cfg/ --work-dir=/home/doeboy1111'
