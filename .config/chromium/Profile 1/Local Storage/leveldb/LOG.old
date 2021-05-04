@@ -1,9 +1,0 @@
-2021/05/03-10:04:05.686 2e32b Reusing MANIFEST /home/doeboy1111/.config/chromium/Profile 1/Local Storage/leveldb/MANIFEST-000001
-2021/05/03-10:04:05.695 2e32b Recovering log #8
-2021/05/03-10:04:05.699 2e32b Reusing old log /home/doeboy1111/.config/chromium/Profile 1/Local Storage/leveldb/000008.log 
-2021/05/03-10:06:22.427 2e32d Level-0 table #12: started
-2021/05/03-10:06:22.436 2e32d Level-0 table #12: 13045 bytes OK
-2021/05/03-10:06:22.444 2e32d Delete type=0 #8
-2021/05/03-18:57:37.853 329c1 Level-0 table #14: started
-2021/05/03-18:57:37.859 329c1 Level-0 table #14: 16395 bytes OK
-2021/05/03-18:57:37.864 329c1 Delete type=0 #11
