@@ -1,0 +1,29 @@
+[Added Associations]
+inode/directory=org.kde.dolphin.desktop;
+x-scheme-handler/http=firefox.desktop;org.gnome.Epiphany.desktop;userapp-Firefox-8CIH20.desktop;
+x-scheme-handler/https=firefox.desktop;org.gnome.Epiphany.desktop;userapp-Firefox-8CIH20.desktop;
+x-scheme-handler/mailto=org.kde.kmail2.desktop;
+text/html=org.gnome.Epiphany.desktop;userapp-Firefox-8CIH20.desktop;
+application/xhtml+xml=org.gnome.Epiphany.desktop;userapp-Firefox-8CIH20.desktop;
+x-scheme-handler/chrome=userapp-Firefox-8CIH20.desktop;
+application/x-extension-htm=userapp-Firefox-8CIH20.desktop;
+application/x-extension-html=userapp-Firefox-8CIH20.desktop;
+application/x-extension-shtml=userapp-Firefox-8CIH20.desktop;
+application/x-extension-xhtml=userapp-Firefox-8CIH20.desktop;
+application/x-extension-xht=userapp-Firefox-8CIH20.desktop;
+
+[Default Applications]
+inode/directory=org.kde.dolphin.desktop;
+x-scheme-handler/http=chromium-browser.desktop
+x-scheme-handler/https=chromium-browser.desktop
+x-scheme-handler/mailto=org.kde.kmail2.desktop;
+text/html=chromium-browser.desktop
+application/xhtml+xml=userapp-Firefox-8CIH20.desktop
+x-scheme-handler/chrome=userapp-Firefox-8CIH20.desktop
+application/x-extension-htm=userapp-Firefox-8CIH20.desktop
+application/x-extension-html=userapp-Firefox-8CIH20.desktop
+application/x-extension-shtml=userapp-Firefox-8CIH20.desktop
+application/x-extension-xhtml=userapp-Firefox-8CIH20.desktop
+application/x-extension-xht=userapp-Firefox-8CIH20.desktop
+x-scheme-handler/about=chromium-browser.desktop
+x-scheme-handler/unknown=chromium-browser.desktop

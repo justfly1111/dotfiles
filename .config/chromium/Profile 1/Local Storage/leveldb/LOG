@@ -1,0 +1,42 @@
+2021/05/03-23:18:59.072 199b7 Reusing MANIFEST /home/doeboy1111/.config/chromium/Profile 1/Local Storage/leveldb/MANIFEST-000001
+2021/05/03-23:18:59.075 199b7 Recovering log #13
+2021/05/03-23:18:59.076 199b7 Reusing old log /home/doeboy1111/.config/chromium/Profile 1/Local Storage/leveldb/000013.log 
+2021/05/04-02:29:43.883 1a122 Level-0 table #17: started
+2021/05/04-02:29:43.887 1a122 Level-0 table #17: 14383 bytes OK
+2021/05/04-02:29:43.890 1a122 Delete type=0 #13
+2021/05/04-02:29:43.891 1a122 Compacting 4@0 + 1@1 files
+2021/05/04-02:29:43.896 1a122 Generated table #18@0: 100 keys, 13041 bytes
+2021/05/04-02:29:43.896 1a122 Compacted 4@0 + 1@1 files => 13041 bytes
+2021/05/04-02:29:43.897 1a122 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/05/04-02:29:43.899 1a122 Delete type=2 #14
+2021/05/04-02:29:43.899 1a122 Delete type=2 #12
+2021/05/04-02:29:43.899 1a122 Delete type=2 #7
+2021/05/04-02:29:43.899 1a122 Delete type=2 #9
+2021/05/04-02:29:43.899 1a122 Delete type=2 #17
+2021/05/04-06:04:57.149 1b510 Level-0 table #20: started
+2021/05/04-06:04:57.156 1b510 Level-0 table #20: 14463 bytes OK
+2021/05/04-06:04:57.160 1b510 Delete type=0 #16
+2021/05/04-07:30:14.661 1bc05 Level-0 table #22: started
+2021/05/04-07:30:14.668 1bc05 Level-0 table #22: 13913 bytes OK
+2021/05/04-07:30:14.678 1bc05 Delete type=0 #19
+2021/05/04-08:45:25.973 1c384 Level-0 table #24: started
+2021/05/04-08:45:25.987 1c384 Level-0 table #24: 40439 bytes OK
+2021/05/04-08:45:25.992 1c384 Delete type=0 #21
+2021/05/04-09:14:48.769 1c6c9 Level-0 table #26: started
+2021/05/04-09:14:48.774 1c6c9 Level-0 table #26: 24090 bytes OK
+2021/05/04-09:14:48.779 1c6c9 Delete type=0 #23
+2021/05/04-09:14:48.781 1c6c9 Compacting 4@0 + 1@1 files
+2021/05/04-09:14:48.802 1c6c9 Generated table #27@0: 189 keys, 75994 bytes
+2021/05/04-09:14:48.802 1c6c9 Compacted 4@0 + 1@1 files => 75994 bytes
+2021/05/04-09:14:48.803 1c6c9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/05/04-09:14:48.814 1c6c9 Delete type=2 #26
+2021/05/04-09:14:48.814 1c6c9 Delete type=2 #20
+2021/05/04-09:14:48.815 1c6c9 Delete type=2 #18
+2021/05/04-09:14:48.815 1c6c9 Delete type=2 #24
+2021/05/04-09:14:48.815 1c6c9 Delete type=2 #22
+2021/05/04-09:18:06.081 1c6f3 Level-0 table #29: started
+2021/05/04-09:18:06.087 1c6f3 Level-0 table #29: 24019 bytes OK
+2021/05/04-09:18:06.090 1c6f3 Delete type=0 #25
+2021/05/04-09:22:48.163 1c807 Level-0 table #31: started
+2021/05/04-09:22:48.167 1c807 Level-0 table #31: 24200 bytes OK
+2021/05/04-09:22:48.171 1c807 Delete type=0 #28

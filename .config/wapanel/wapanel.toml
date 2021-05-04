@@ -1,0 +1,41 @@
+[[panel]]
+	position = "top"
+	height = 16
+
+	[[panel.applet]]
+		name = "app-finder"
+
+		icon_height = -1
+		flat = true
+
+		popover_width = -1
+		popover_height = -1
+
+		user_manager = "mugshot"
+		settings = "wcm"
+		file_manager = "thunar $HOME"
+
+		[panel.applet.logout]
+			shutdown = "sudo shutdown -p now"
+			restart = "sudo shutdown -r now"
+			logout = "wlogout"
+			suspend = "sudo shutdown -s now"
+			hibernate = "sudo shutdown -h now"
+			lock = "waylock"
+
+	[[panel.applet]]
+		name = "task-switcher"
+		[panel.applet.mode.scroll]
+			[panel.applet.mode.scroll.button]
+				gap = 8
+
+	[[panel.applet]]
+		name = "system-tray"
+
+	[[panel.applet]]
+		name = "volume-control"
+		flat = true
+		icon_height = 16
+
+	[[panel.applet]]
+		name = "clock"

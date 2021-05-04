@@ -1,0 +1,136 @@
+[
+  {
+    "name": "toppan",
+    "output": "eDP-1",
+    "layer": "top",
+    "position": "top",
+    "controls": "right",
+    "width": "auto",
+    "height": 0,
+    "margin-top": 0,
+    "margin-bottom": 0,
+    "padding-horizontal": 0,
+    "padding-vertical": 0,
+    "spacing": 0,
+    "icons": "",
+    "css-name": "toppan",
+    "modules-left": [],
+    "modules-center": [
+      "sway-taskbar"
+    ],
+    "modules-right": [
+      "sway-workspaces",
+      "clock"
+    ],
+    "controls-settings": {
+      "components": [
+        "net",
+        "brightness",
+        "volume"
+      ],
+      "commands": {
+        "net": "ifconfig",
+        "bluetooth": "",
+        "battery": ""
+      },
+      "show-values": true,
+      "interval": 1,
+      "icon-size": 16,
+      "hover-opens": true,
+      "leave-closes": true,
+      "css-name": "controls-window",
+      "net-interface": "ue0",
+      "custom-items": [
+        {
+          "name": "Panel settings",
+          "icon": "nwg-panel",
+          "cmd": "nwg-panel-config"
+        }
+      ],
+      "menu": {
+        "name": "unnamed",
+        "icon": "",
+        "items": []
+      },
+      "output-switcher": false,
+      "window-width": 0
+    },
+    "sway-taskbar": {
+      "workspace-menu": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "name-max-len": 20,
+      "image-size": 16,
+      "workspaces-spacing": 0,
+      "task-padding": 0,
+      "show-app-icon": true,
+      "show-app-name": true,
+      "show-layout": true,
+      "workspace-buttons": true,
+      "all-workspaces": true,
+      "all-outputs": false
+    },
+    "sway-workspaces": {
+      "numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "show-icon": true,
+      "image-size": 16,
+      "show-name": true,
+      "name-length": 40,
+      "mark-autotiling": true,
+      "mark-content": true,
+      "show-layout": true
+    },
+    "clock": {
+      "format": "%a, %d. %b  %H:%M:%S",
+      "tooltip-text": "",
+      "on-left-click": "",
+      "on-middle-click": "",
+      "on-right-click": "",
+      "on-scroll-up": "",
+      "on-scroll-down": "",
+      "css-name": "clock",
+      "interval": 1
+    },
+    "playerctl": {
+      "buttons-position": "right",
+      "icon-size": 16,
+      "chars": 30,
+      "button-css-name": "play",
+      "label-css-name": "music",
+      "interval": 1
+    },
+    "scratchpad": {
+      "css-name": "                                                                                                                                       scratchnotez                              ",
+      "icon-size": 16
+    },
+    "executor-sysname": {
+      "script": "/bin/sh uname -i ; /bin/sh uname -a",
+      "tooltip-text": "",
+      "on-left-click": "",
+      "on-middle-click": "",
+      "on-right-click": "",
+      "on-scroll-up": "",
+      "on-scroll-down": "",
+      "css-name": "",
+      "icon-placement": "right",
+      "icon-size": 16,
+      "interval": 1
+    }
+  }
+]

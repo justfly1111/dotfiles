@@ -1,0 +1,36 @@
+font=monospace 8
+background-color=#b1c6d7ff
+text-color=#000000ff
+margin=5,5,0,0
+padding=10
+border-size=0
+default-timeout=5000
+max-visible=9
+format=<span font='9'><b>%a</b></span>\n%s\n%b
+
+[hidden]
+background-color=#bfbfbfff
+format=+ %h
+font=monospace 8
+
+[app-name=hud]
+font=monospace 8
+width=100
+format=<b>%s</b>
+background-color=#555555ff
+text-color=#eeeeeeff
+default-timeout=1000
+
+[app-name=coredump-notify]
+background-color=#d09a9a
+
+[app-name=stdnotify urgency=high]
+background-color=#d09a9a
+
+[urgency=high]
+border-color=#ee2e24
+ignore-timeout=true
+
+[!expiring]
+background-color=#555555ff
+text-color=#eeeeeeff

@@ -1,0 +1,53 @@
+env:
+  WINIT_HIDPI_FACTOR: "1"
+  TERM: xterm-256color
+
+window:
+  padding:
+    x: 4
+    y: 2
+
+font:
+  normal:
+    family: monospace
+  size: 10.0
+
+colors:
+  primary:
+    background: "0x1c1e26"
+    foreground: "0xe0e0e0"
+
+  normal:
+    black: "0x16161c"
+    red: "0xe95678"
+    green: "0x29d398"
+    yellow: "0xfab795"
+    blue: "0x26bbd9"
+    magenta: "0xee64ac"
+    cyan: "0x59e1e3"
+    white: "0xd5d8da"
+
+  bright:
+    black: "0x5b5858"
+    red: "0xec6a88"
+    green: "0x3fdaa4"
+    yellow: "0xfbc3a7"
+    blue: "0x3fc4de"
+    magenta: "0xf075b5"
+    cyan: "0x6be4e6"
+    white: "0xd5d8da"
+
+key_bindings:
+  - { key: V, mods: Control|Shift, action: Paste }
+  - { key: C, mods: Control|Shift, action: Copy }
+  - { key: Paste, action: Paste }
+  - { key: Copy, action: Copy }
+  - { key: Key0, mods: Control, action: ResetFontSize }
+  - { key: Equals, mods: Control, action: IncreaseFontSize }
+  - { key: L, mods: Control, action: ClearLogNotice }
+  - { key: L, mods: Control, chars: "\x0c" }
+  - { key: NumpadEnter, chars: "\n" }
+  - { key: PageUp, mods: Shift, action: ScrollPageUp, mode: ~Alt }
+  - { key: PageDown, mods: Shift, action: ScrollPageDown, mode: ~Alt }
+  - { key: Home, mods: Shift, action: ScrollToTop, mode: ~Alt }
+  - { key: End, mods: Shift, action: ScrollToBottom, mode: ~Alt }

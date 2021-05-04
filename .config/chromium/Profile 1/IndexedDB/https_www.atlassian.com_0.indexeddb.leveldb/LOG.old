@@ -1,0 +1,5 @@
+2021/05/04-06:12:56.589 1b406 Reusing MANIFEST /home/doeboy1111/.config/chromium/Profile 1/IndexedDB/https_www.atlassian.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/04-07:32:38.616 1bc82 Level-0 table #5: started
+2021/05/04-07:32:38.638 1bc82 Level-0 table #5: 1557 bytes OK
+2021/05/04-07:32:38.642 1bc82 Delete type=0 #3
+2021/05/04-07:32:38.647 1bc82 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

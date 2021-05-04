@@ -1,0 +1,12 @@
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
+
+[Daemon]
+LockGrace=300
+Timeout=30
+
+[Greeter]
+Theme=Irixium
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/usr/local/share/wallpapers/SafeLanding/

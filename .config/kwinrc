@@ -1,0 +1,66 @@
+[$Version]
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage
+
+[Compositing]
+OpenGLIsUnsafe=false
+
+[Desktops]
+Id_1=53205e3a-746e-4091-8331-14b4000d9a44
+Id_2=ca42a1db-453c-4ac6-8ef2-e85c73bb673c
+Id_3=ff0e4967-b3d2-4e9a-89ba-74617ef68a57
+Id_4=eb0732be-f8e6-49d6-97b5-9e8bb8963951
+Id_5=233283e7-da89-4010-bf88-d6267b83de8c
+Id_6=93a67309-3445-492d-b6aa-cfebe5dc99ef
+Name_2=New Desktop
+Name_3=New Desktop
+Name_4=New Desktop
+Name_5=New Desktop
+Name_6=New Desktop
+Number=6
+Rows=2
+
+[Effect-Cube]
+TouchBorderActivate=2
+
+[Effect-PresentWindows]
+BorderActivateAll=9
+
+[ElectricBorders]
+TopLeft=ApplicationLauncher
+
+[Plugins]
+ParachuteEnabled=true
+cubeEnabled=true
+fallapartEnabled=true
+forceblurEnabled=false
+krohnkiteEnabled=false
+kwin-script-tilingEnabled=false
+kwin4_effect_activityswitchingEnabled=true
+lattewindowcolorsEnabled=true
+macsimizeEnabled=true
+max2NewVirtualDesktopEnabled=true
+minimizeallEnabled=false
+quarter-tilingEnabled=false
+raiseGIMPEnabled=true
+shakeEnabled=true
+sheetEnabled=true
+sticky-window-snappingEnabled=false
+synchronizeskipswitcherEnabled=false
+toggleparachuteEnabled=true
+ultrawidewindowsEnabled=true
+videowallEnabled=true
+wobblywindowsEnabled=true
+
+[TabBox]
+DesktopLayout=org.kde.breeze.desktop
+DesktopListLayout=org.kde.breeze.desktop
+LayoutName=org.kde.breeze.desktop
+
+[TouchEdges]
+Bottom=ShowDesktop
+Left=ApplicationLauncher
+Top=ActivityManager
+
+[org.kde.kdecoration2]
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Irixium

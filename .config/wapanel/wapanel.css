@@ -1,0 +1,68 @@
+/* Make calendar look better */
+
+.clock-popover calendar {
+	border: none;
+}
+
+/* Make app-finder icons more fit */
+
+.app-finder-popover box box:first-child button {
+	padding: 6px;
+}
+
+/* Tweak notebook */
+
+.app-finder-category-notebook {
+	border: 0;
+}
+
+.app-finder-category-notebook tab {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.app-finder-category-notebook tabs {
+	padding-top: 0;
+	background-color: @theme_bg_color;
+}
+
+.app-finder-category-app-list row label:first-child {
+	font-weight: bold;
+}
+
+/* Remove padding from task-switcher */
+
+.task-switcher flowbox {
+	padding: 0px;
+	margin: 0px;
+}
+
+.task-switcher {
+	padding: 0px;
+}
+
+.task-switcher flowbox flowboxchild button {
+	border-radius: 0px;
+}
+
+/* Final general tweaks */
+
+button:checked {
+	border-bottom: 1px solid @theme_selected_bg_color;
+}
+
+.volume-control, .clock, .activator button, .app-finder {
+	border-radius: 0px;
+}
+
+.app-finder {
+	margin-right: 4px;
+}
+
+popover {
+	border-radius: 0;
+}
+
+button.toggle:hover {
+	-gtk-icon-effect: none;
+}
